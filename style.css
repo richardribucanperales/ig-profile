@@ -1,0 +1,46 @@
+*{
+	font-family:arial;
+	background-repeat:no-repeat;
+}
+#container{
+	width: 1080px;
+	margin:auto;
+	border:3px solid #DDDDDD;
+}
+#top-bar{
+	height:145px;
+	background-image:url(images/top-bar.png);
+}
+#username{
+	margin-top:0px;
+    position: relative;
+	float: left;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+#follower-count{
+	height:355px;
+	background-image:url(images/follower-count.png);
+}
+#profile-picture{
+	height:255px;
+	width:255px;
+	margin-top:53px;
+	margin-left:55px;
+}
+#photo-bar{
+	height:140px;
+	background-image:url(images/photo-bar.png);
+}
+#bottom-bar{
+	height:135px;
+	background-image:url(images/bottom-bar.png);
+}
+.ig-image{
+	float:left;
+	border:3px solid red;
+	margin:0px;
+	width:255px;
+	height:255px;
+}
